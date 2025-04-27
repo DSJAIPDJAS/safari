@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Safari - Travel & Tourism Company</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Teko:wght@300..700&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link rel="stylesheet" href="lib/animate/animate.min.css"/>
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+    <!-- Navbar & Hero Start -->
+    <div class="container-fluid header-top">
+        <div class="nav-shaps-2"></div>
+        <div class="container d-flex align-items-center">
+            <div class="d-flex align-items-center h-100">
+                <a href="#" class="navbar-brand" style="height: 125px;">
+                    <h1 class="text-primary mb-0"><i class="fas fa-plane me-2"></i> Safari</h1>
+                </a>
+            </div>
+            <div class="w-100 h-100">
+                <div class="topbar px-0 py-2 d-none d-lg-block" style="height: 45px;">
+                    <div class="row gx-0 align-items-center">
+                        <div class="col-lg-8 text-center text-lg-center mb-lg-0">
+                            <div class="d-flex flex-wrap">
+                                <div class="pe-4">
+                                    <a href="mailto:info@safari.com" class="text-muted small"><i class="fas fa-envelope text-primary me-2"></i>info@safari.com</a>
+                                </div>
+                                <div class="pe-0">
+                                    <a href="tel:+1234567890" class="text-muted small"><i class="fa fa-phone text-primary me-2"></i>+1 234 567 890</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 text-center text-lg-end">
+                            <div class="d-flex justify-content-end">
+                                <div class="d-flex align-items-center small">
+                                    <a href="#" class="login-btn text-body me-3 pe-3"> <span>Login</span></a>
+                                    <a href="#" class="text-body me-3"> Register</a>
+                                </div>
+                                <div class="d-flex pe-3">
+                                    <a class="btn p-0 text-primary me-3" href="#"><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn p-0 text-primary me-3" href="#"><i class="fab fa-twitter"></i></a>
+                                    <a class="btn p-0 text-primary me-3" href="#"><i class="fab fa-instagram"></i></a>
+                                    <a class="btn p-0 text-primary me-0" href="#"><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="nav-bar px-0 py-lg-0" style="height: 80px;">
+                    <nav class="navbar navbar-expand-lg navbar-light d-flex justify-content-lg-end">
+                        <a href="#" class="navbar-brand-2">
+                            <h1 class="text-primary mb-0"><i class="fas fa-plane me-2"></i> Safari</h1>
+                        </a> 
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                            <span class="fa fa-bars"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarCollapse">
+                            <div class="navbar-nav mx-0 mx-lg-auto">
+                                <a href="index.html" class="nav-item nav-link active">Home</a>
+                                <a href="about.html" class="nav-item nav-link">About</a>
+                                <a href="packages.html" class="nav-item nav-link">Packages</a>
+                                <a href="blog.html" class="nav-item nav-link">Blog</a>
+                                <div class="nav-item dropdown">
+                                    <a href="#" class="nav-link" data-bs-toggle="dropdown">
+                                        <span class="dropdown-toggle">Pages</span>
+                                    </a>
+                                    <div class="dropdown-menu">
+                                        <a href="destinations.html" class="dropdown-item">Destinations</a>
+                                        <a href="team.html" class="dropdown-item">Our Team</a>
+                                        <a href="testimonial.html" class="dropdown-item">Testimonials</a>
+                                        <a href="404.html" class="dropdown-item">404 Page</a>
+                                    </div>
+                                </div>
+                                <a href="contact.html" class="nav-item nav-link">Contact</a>
+                                <div class="nav-btn ps-3">
+                                    <button class="btn-search btn btn-primary btn-md-square mt-2 mt-lg-0 mb-4 mb-lg-0 flex-shrink-0" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fas fa-search"></i></button>
+                                    <a href="#" class="btn btn-primary py-2 px-4 ms-0 ms-lg-3"> <span>Book Now</span></a>
+                                </div>
+                                <div class="nav-shaps-1"></div>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Navbar & Hero End -->
+
+    <!-- Modal Search Start -->
+    <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content rounded-0">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Search by destination</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body d-flex align-items-center bg-primary">
+                    <div class="input-group w-75 mx-auto d-flex">
+                        <input type="search" class="form-control p-3" placeholder="Search for destinations, hotels, tours..." aria-describedby="search-icon-1">
+                        <span id="search-icon-1" class="btn bg-light border input-group-text p-3"><i class="fa fa-search"></i></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal Search End -->
+
+       <!-- Header Start -->
+    <div class="container-fluid bg-breadcrumb">
+        <div class="container text-center py-5" style="max-width: 900px;">
+            <h4 class="text-white display-4 mb-4 wow fadeInDown" data-wow-delay="0.1s">About Travel</h4>
+            <ol class="breadcrumb d-flex justify-content-center mb-0 wow fadeInDown" data-wow-delay="0.3s">
+                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item"><a href="#">Pages</a></li>
+                <li class="breadcrumb-item active text-primary">Blog</li>
+            </ol>    
+        </div>
+    </div>
+    <!-- Header End -->
+
+
+       <!-- About Start -->
+    <div class="container-fluid about pt-5">
+        <div class="container pt-5">
+            <div class="row g-5">
+                <div class="col-xl-6 wow fadeInLeft" data-wow-delay="0.2s">
+                    <div class="about-content h-100">
+                        <h4 class="text-primary">About Safari Travel</h4>
+                        <h1 class="display-4 text-white mb-4">We Make Travel Dreams Come True</h1>
+                        <p class="mb-4">Safari is a leading travel and tourism company established in 2005, specializing in providing exceptional travel services and innovative solutions that meet all our clients' needs.</p>
+                        <div class="tab-class pb-4">
+                            <ul class="nav d-flex mb-2">
+                                <li class="nav-item mb-3">
+                                    <a class="d-flex py-2 active" data-bs-toggle="pill" href="#tab-1">
+                                        <span style="width: 150px;">Our Mission</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item mb-3">
+                                    <a class="d-flex py-2 mx-3" data-bs-toggle="pill" href="#tab-2">
+                                        <span style="width: 150px;">Our Vision</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item mb-3">
+                                    <a class="d-flex py-2" data-bs-toggle="pill" href="#tab-3">
+                                        <span style="width: 150px;">Our Goals</span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="tab-content">
+                                <div id="tab-1" class="tab-pane fade show p-0 active">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="d-flex align-items-center border-top border-bottom py-4">
+                                                <span class="fas fa-bullseye text-white fa-4x me-4"></span>
+                                                <p class="mb-0">We strive to deliver exceptional travel experiences that meet and exceed our clients' expectations through a professional team and strategic partnerships with the best travel service providers worldwide.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="tab-2" class="tab-pane fade show p-0">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="d-flex align-items-center border-top border-bottom py-4">
+                                                <span class="fas fa-eye text-white fa-4x me-4"></span>
+                                                <p class="mb-0">To be the leading travel agency in the region and the first choice for clients seeking unique and exceptional travel experiences, while maintaining the highest standards of quality and professionalism.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="tab-3" class="tab-pane fade show p-0">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="d-flex align-items-center border-top border-bottom py-4">
+                                                <span class="fas fa-flag text-white fa-4x me-4"></span>
+                                                <p class="mb-0">1. Deliver exceptional travel experiences
+                                                    <br>2. Achieve 100% customer satisfaction
+                                                    <br>3. Expand into new markets
+                                                    <br>4. Adopt the latest technologies in the travel industry
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row g-4 align-items-center">
+                            <div class="col-sm-6">
+                                <a href="#" class="btn btn-primary py-3 px-5"> <span>Book Now</span></a>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="d-flex flex-shrink-0 ps-4">
+                                    <a href="#" class="btn btn-light btn-lg-square position-relative wow tada" data-wow-delay=".9s">
+                                        <i class="fa fa-phone-alt fa-2x"></i>
+                                        <div class="position-absolute" style="top: 5px; right: 5px;">
+                                            <span><i class="fa fa-comment-dots text-dark"></i></span>
+                                        </div>
+                                    </a>
+                                    <div class="d-flex flex-column ms-3">
+                                        <span>Call Our Sales Team</span>
+                                        <a href="tel:+1234567890"><span class="text-white">+1 234 567 890</span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-6 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="about-img h-100">
+                        <div class="about-img-inner d-flex h-100">
+                            <img src="" class="img-fluid w-100" style="object-fit: cover;" alt="About Safari Travel">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+        <!-- Our Services Start -->
+<div class="container-fluid goal pt-5">
+    <div class="container pt-5">
+        <div class="row g-5">
+            <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.2s">
+                <div class="goal-content">
+                    <h4 class="text-primary">Our Services</h4>
+                    <h1 class="display-4 mb-4">Everything You Need for an Exceptional Journey</h1>
+                    <div class="goal-item d-flex p-4">
+                        <div class="d-flex me-4">
+                            <div class="bg-primary d-inline p-3" style="width: 80px; height: 80px;">
+                                <img src="img/icon-flight.png" class="img-fluid" alt="Flights">
+                            </div>
+                        </div>
+                        <div>
+                            <h4>Flight Bookings</h4>
+                            <p class="text-white mb-0">Book flight tickets at the best prices with all international and local airlines, with multiple options for travel times.</p>
+                        </div>
+                    </div>
+                    <div class="goal-item d-flex p-4 mb-4">
+                        <div class="d-flex me-4">
+                            <div class="bg-primary d-inline p-3" style="width: 80px; height: 80px;">
+                                <img src="img/icon-hotel.png" class="img-fluid" alt="Hotels">
+                            </div>
+                        </div>
+                        <div>
+                            <h4>Hotel Reservations</h4>
+                            <p class="text-white mb-0">Book in the best hotels and serviced apartments worldwide at competitive prices with exclusive discounts.</p>
+                        </div>
+                    </div>
+                    <div class="ms-1">
+                        <a href="#" class="btn btn-primary py-3 px-5 ms-2"> <span>More Services</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 wow fadeInRight" data-wow-delay="0.2s">
+                <div class="h-100">
+                    <img src="img/services-banner.jpg" class="img-fluid h-100" style="object-fit: cover;" alt="Our Services">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Our Services End -->
+
+<!-- Why Choose Us Start -->
+<div class="container-fluid feature bg-light py-5">
+    <div class="container py-5">
+        <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+            <h4 class="text-primary">Why Choose Us?</h4>
+            <h1 class="display-4 mb-4">We Offer the Best for Our Clients</h1>
+            <p class="mb-0">We excel in providing high-quality travel services that meet all travelers' needs, with guaranteed best prices and highest service standards.
+            </p>
+        </div>
+        <div class="feature-carousel owl-carousel">
+            <div class="feature-item wow fadeInUp" data-wow-delay="0.2s">
+                <div class="feature-img">
+                    <img src="img/feature-1.jpg" class="img-fluid w-100" alt="Extensive Experience">
+                </div>
+                <div class="feature-content p-4">
+                    <h4 class="mb-3">Extensive Experience</h4>
+                    <p class="mb-4">Over 15 years of experience in tourism and travel, with a team of specialized experts.</p>
+                    <a href="#" class="btn btn-primary py-2 px-4"> <span>Read More</span></a>
+                </div>
+            </div>
+            <div class="feature-item wow fadeInUp" data-wow-delay="0.4s">
+                <div class="feature-img">
+                    <img src="img/feature-2.jpg" class="img-fluid w-100" alt="Competitive Prices">
+                </div>
+                <div class="feature-content p-4">
+                    <h4 class="mb-3">Competitive Prices</h4>
+                    <p class="mb-4">We offer the best deals and exclusive discounts to our clients with quality guarantee.</p>
+                    <a href="#" class="btn btn-primary py-2 px-4"> <span>Read More</span></a>
+                </div>
+            </div>
+            <div class="feature-item wow fadeInUp" data-wow-delay="0.6s">
+                <div class="feature-img">
+                    <img src="img/feature-3.jpg" class="img-fluid w-100" alt="Comprehensive Support">
+                </div>
+                <div class="feature-content p-4">
+                    <h4 class="mb-3">24/7 Support</h4>
+                    <p class="mb-4">Round-the-clock support team to assist you with any inquiries or emergencies during your trip.</p>
+                    <a href="#" class="btn btn-primary py-2 px-4"> <span>Read More</span></a>
+                </div>
+            </div>
+            <div class="feature-item">
+                <div class="feature-img">
+                    <img src="img/feature-4.jpg" class="img-fluid w-100" alt="Comprehensive Planning">
+                </div>
+                <div class="feature-content p-4">
+                    <h4 class="mb-3">Comprehensive Planning</h4>
+                    <p class="mb-4">We help you plan your entire trip from start to finish with all its details.</p>
+                    <a href="#" class="btn btn-primary py-2 px-4"> <span>Read More</span></a>
+                </div>
+            </div>
+        </div>
+        <div class="feature-shaps"></div>
+    </div>
+</div>
+<!-- Why Choose Us End -->
+
+<!-- Our Team Start -->
+<div class="container-fluid team py-5">
+    <div class="container py-5">
+        <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+            <h4 class="text-primary">Our Team</h4>
+            <h1 class="display-4 mb-4">Meet the Travel Team</h1>
+            <p class="mb-0">Our team of tourism and travel experts is ready to help you plan your perfect trip and provide the best advice.
+            </p>
+        </div>
+        <div class="row gy-5 gy-lg-4 gx-4">
+            <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.2s">
+                <div class="team-item">
+                    <div class="team-img">
+                        <img src="img/team-1.jpg" class="img-fluid w-100" alt="Team Member">
+                        <div class="team-icon">
+                            <a href="#" class="btn btn-primary btn-sm-square"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="btn btn-primary btn-sm-square"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="btn btn-primary btn-sm-square"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="team-content">
+                        <h4>Ahmed Mohamed</h4>
+                        <p class="mb-0">Sales Manager</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.4s">
+                <div class="team-item">
+                    <div class="team-img">
+                        <img src="img/team-2.jpg" class="img-fluid w-100" alt="Team Member">
+                        <div class="team-icon">
+                            <a href="#" class="btn btn-primary btn-sm-square"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="btn btn-primary btn-sm-square"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="btn btn-primary btn-sm-square"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="team-content">
+                        <h4>Sara Abdullah</h4>
+                        <p class="mb-0">Trip Coordinator</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.6s">
+                <div class="team-item">
+                    <div class="team-img">
+                        <img src="img/team-3.jpg" class="img-fluid w-100" alt="Team Member">
+                        <div class="team-icon">
+                            <a href="#" class="btn btn-primary btn-sm-square"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="btn btn-primary btn-sm-square"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="btn btn-primary btn-sm-square"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="team-content">
+                        <h4>Khaled Saeed</h4>
+                        <p class="mb-0">Visa Specialist</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.8s">
+                <div class="team-item">
+                    <div class="team-img">
+                        <img src="img/team-4.jpg" class="img-fluid w-100" alt="Team Member">
+                        <div class="team-icon">
+                            <a href="#" class="btn btn-primary btn-sm-square"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="btn btn-primary btn-sm-square"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="btn btn-primary btn-sm-square"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="team-content">
+                        <h4>Layla Ahmed</h4>
+                        <p class="mb-0">Customer Service Manager</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Our Team End -->
+
+<!-- Testimonial Start -->
+<div class="container-fluid testimonial bg-dark py-5" style="margin-bottom: 90px;">
+    <div class="container py-5">
+        <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+            <h4 class="text-primary">Customer Reviews</h4>
+            <h1 class="display-4 text-white">What Our Clients Say About Us</h1>
+        </div>
+        <div class="testimonial-carousel owl-carousel wow fadeInUp" data-wow-delay="0.2s">
+            <div class="testimonial-item mx-auto" style="max-width: 900px;">
+                <span class="fa fa-quote-left fa-3x quote-icon"></span>
+                <div class="testimonial-img mb-4">
+                    <img src="img/testimonial-1.jpg" class="img-fluid" alt="Customer Review">
+                </div>
+                <p class="fs-4 text-white mb-4">Amazing experience with Travel Company, they helped me organize the trip of a lifetime to Japan with all its details, and everything was at the highest level of organization and quality. I highly recommend them to anyone looking for an exceptional trip.
+                </p>
+                <div class="d-block">
+                    <h4 class="text-white">Mohammed Al-Otaibi</h4>
+                    <p class="m-0 pb-3">Trip to Japan</p>
+                    <div class="d-flex">
+                        <i class="fas fa-star text-primary"></i>
+                        <i class="fas fa-star text-primary"></i>
+                        <i class="fas fa-star text-primary"></i>
+                        <i class="fas fa-star text-primary"></i>
+                        <i class="fas fa-star text-primary"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-item mx-auto" style="max-width: 900px;">
+                <span class="fa fa-quote-left fa-3x quote-icon"></span>
+                <div class="testimonial-img mb-4">
+                    <img src="img/testimonial-2.jpg" class="img-fluid" alt="Customer Review">
+                </div>
+                <p class="fs-4 text-white mb-4">Thank you to the Travel team for the wonderful trip to Turkey, all the details were excellent from hotels to transportation and tours. I will definitely rely on them for my future trips.
+                </p>
+                <div class="d-block">
+                    <h4 class="text-white">Nora Al-Saad</h4>
+                    <p class="m-0 pb-3">Trip to Turkey</p>
+                    <div class="d-flex">
+                        <i class="fas fa-star text-primary"></i>
+                        <i class="fas fa-star text-primary"></i>
+                        <i class="fas fa-star text-primary"></i>
+                        <i class="fas fa-star text-primary"></i>
+                        <i class="fas fa-star text-primary"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-item mx-auto" style="max-width: 900px;">
+                <span class="fa fa-quote-left fa-3x quote-icon"></span>
+                <div class="testimonial-img mb-4">
+                    <img src="img/testimonial-3.jpg" class="img-fluid" alt="Customer Review">
+                </div>
+                <p class="fs-4 text-white mb-4">I booked my honeymoon to the Maldives with Travel, and it was an unforgettable experience. The hotel was wonderful and the services were excellent. Thanks to the team for paying attention to every small detail.
+                </p>
+                <div class="d-block">
+                    <h4 class="text-white">Saud Al-Qahtani</h4>
+                    <p class="m-0 pb-3">Trip to Maldives</p>
+                    <div class="d-flex">
+                        <i class="fas fa-star text-primary"></i>
+                        <i class="fas fa-star text-primary"></i>
+                        <i class="fas fa-star text-primary"></i>
+                        <i class="fas fa-star text-primary"></i>
+                        <i class="fas fa-star text-primary"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Testimonial End -->
+
+        <!-- Footer Start -->
+    <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.2s">
+        <div class="container py-5">
+            <div class="row g-5 mb-5 align-items-center">
+                <div class="col-lg-7">
+                    <div class="position-relative d-flex" style="transform: skew(18deg);">
+                        <input class="form-control border-0 w-100 py-3 pe-5" type="text" placeholder="Email address to Subscribe">
+                        <button type="button" class="btn-primary py-2 px-4 ms-3"> <span>Subscribe</span></button>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="d-flex align-items-center justify-content-center justify-content-lg-end">
+                        <a class="btn btn-primary btn-md-square me-3" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-primary btn-md-square me-3" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-primary btn-md-square me-3" href=""><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-primary btn-md-square me-0" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row g-5">
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="footer-item">
+                        <h4 class="text-white mb-4"><i class="fas fa-plane text-primary me-2"></i> Safari</h4>
+                        <p class="mb-0">Safari is a leading travel and tourism company established in 2005, specializing in providing exceptional travel services and innovative solutions that meet all our clients' needs.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="footer-item">
+                        <h4 class="text-white mb-4">Quick Links</h4>
+                        <a href="#"> Home</a>
+                        <a href="#"> About Us</a>
+                        <a href="#"> Packages</a>
+                        <a href="#"> Destinations</a>
+                        <a href="#"> Blog</a>
+                        <a href="#"> Contact Us</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="footer-item">
+                        <h4 class="text-white mb-4"> Contact Info</h4>
+                        <div class="row g-2">
+                            <div class="col-12">
+                                <div class="d-flex">
+                                    <i class="fas fa-map-marker-alt text-primary me-2"></i>
+                                    <div>
+                                        <h5 class="text-white mb-2">Address</h5>
+                                        <p class="mb-0">123 Travel Street, New York, USA</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="d-flex">
+                                    <i class="fas fa-envelope text-primary me-2"></i>
+                                    <div>
+                                        <h5 class="text-white mb-2">Mail Us</h5>
+                                        <p class="mb-0">info@safari.com</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="d-flex">
+                                    <i class="fa fa-phone-alt text-primary me-2"></i>
+                                    <div>
+                                        <h5 class="text-white mb-2">Telephone</h5>
+                                        <p class="mb-0">+1 234 567 890</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="footer-item">
+                        <h4 class="text-white mb-4">Gallery</h4>
+                        <div class="row g-2">
+                            <div class="col-3">
+                                <div class="footer-item-img">
+                                    <a href="#"><img src="" class="img-fluid" alt="Gallery"></a>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="footer-item-img">
+                                    <a href="#"><img src="" class="img-fluid" alt="Gallery"></a>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="footer-item-img">
+                                    <a href="#"><img src="" class="img-fluid" alt="Gallery"></a>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="footer-item-img">
+                                    <a href="#"><img src="" class="img-fluid" alt="Gallery"></a>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="footer-item-img">
+                                    <a href="#"><img src="" class="img-fluid" alt="Gallery"></a>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="footer-item-img">
+                                    <a href="#"><img src="" class="img-fluid" alt="Gallery"></a>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="footer-item-img">
+                                    <a href="#"><img src="" class="img-fluid" alt="Gallery"></a>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="footer-item-img">
+                                    <a href="#"><img src="" class="img-fluid" alt="Gallery"></a>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="footer-item-img">
+                                    <a href="#"><img src="" class="img-fluid" alt="Gallery"></a>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="footer-item-img">
+                                    <a href="#"><img src="" class="img-fluid" alt="Gallery"></a>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="footer-item-img">
+                                    <a href="#"><img src="" class="img-fluid" alt="Gallery"></a>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="footer-item-img">
+                                    <a href="#"><img src="" class="img-fluid" alt="Gallery"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+    
+   
+    <!-- Back to Top -->
+    <div class="back-to-top">
+        <a href="#" class="btn"><i class="fa fa-arrow-up"></i></a>  
+    </div> 
+
+    
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
